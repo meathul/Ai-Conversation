@@ -18,9 +18,15 @@ Create a .env file in the root directory and add your API keys:
  GROQ_API_KEY=your_groq_api_key
 ```
 ## 3.Run the Script
-```bash
-python gpt_vs_llama.py
-```
+
+
+# Personalities
+## GPT-4o-mini
+🔥 Argumentative, snarky, and loves to disagree.
+## LLaMA 3 (via Groq)
+🧘 Polite, diplomatic, and seeks common ground.
+You can tweak their behavior by editing the gpt_system and groq_system messages in the script.
+
 
 
 
